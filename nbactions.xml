@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-mvn install</actionName>
+            <displayName>mvn install</displayName>
+            <goals>
+                <goal>install</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-mvn run</actionName>
+            <displayName>mvn run</displayName>
+            <goals>
+                <goal>run</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-mvn clean</actionName>
+            <displayName>mvn clean</displayName>
+            <goals>
+                <goal>clean</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-run</actionName>
+            <displayName>run</displayName>
+            <goals>
+                <goal>spring-boot:run</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-Clean Install</actionName>
+            <displayName>Clean Install</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>install</goal>
+            </goals>
+        </action>
+    </actions>
